@@ -55,7 +55,6 @@ int lastoccur(int arr[], int size, int key){
  int main(){
    
       int arr[7]= {2,5,5,5,5,5,8};
-      //int arr[5] = {3,5,6,5,7};
 
      int firstindex = firstoccur(arr ,7, 8);
      cout << "first occurance of 8 at index " << firstindex << endl;
