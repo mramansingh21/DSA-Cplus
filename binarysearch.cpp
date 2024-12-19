@@ -54,12 +54,12 @@ int lastoccur(int arr[], int size, int key){
 
  int main(){
    
-      int arr[7]= {2,5,5,5,5,5,8};
+      int arr[10]= {2,4,5,5,5,5,5,5,5,8};
 
-     int firstindex = firstoccur(arr ,7, 8);
+     int firstindex = firstoccur(arr ,10, 5);
      cout << "first occurance of 8 at index " << firstindex << endl;
 
-    int secondindex = lastoccur(arr , 7 , 5);
+    int secondindex = lastoccur(arr , 10 , 5);
     cout << "last occurance of 5 at index " << secondindex << endl;
 
 
